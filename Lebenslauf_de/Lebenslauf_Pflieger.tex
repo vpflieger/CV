@@ -1,0 +1,215 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[ngerman,11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+
+% character encoding
+\usepackage[ngerman]{babel}
+\usepackage[applemac]{inputenc}                   % replace by the encoding you are using
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+% VORNAME
+\firstname{Verena}
+% NACHNAME
+\familyname{Pflieger}
+%TITEL (optional, ggf. einfach die Zeile lˆschen!)
+\title{Statistikerin / Data Scientist}    
+%ADRESSE  (optional, ggf. einfach die Zeile lˆschen!)
+\address{Andreasberger Str. 8}{12347 Berlin}
+%HANDYNUMMER  (optional, ggf. einfach die Zeile lˆschen!)
+\mobile{0176 / 97617237} 
+%FESTNETZNUMMER  (optional, ggf. einfach die Zeile lˆschen!)
+\phone{030 / 61204640}
+%EMAIL-ADRESSE  (optional, ggf. einfach die Zeile lˆschen!)
+\email{verenapflieger@gmx.de} 
+
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{Daten Analystin und Statistikerin}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+%
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+%
+%\makeletterclosing % Print letter signature
+%
+%\newpage
+%
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\"Uber mich}
+\cvline{geboren}{am 6. August 1986 in Müllheim}
+\cvline{Profession}{Statistikerin / Data Scientist}
+
+\vspace{1cm}
+
+\section{Bildung}
+
+\cventry{2010 -- 2013}{Master of Science in Statistik}{FU, HU, TU und Charité}{Berlin}{\textit{Note: 1,8}}{}  % Arguments not required can be left empty
+\cventry{2006 -- 2009}{Bachelor of Arts in Politik und Verwaltungswissenschaften}{Schwerpunkt Statistik. Universität Konstanz}{}{\textit{Note: 1,8}}{}
+
+\cventry{1997 -- 2006}{Allgemeine Hochschulreife}{Markgräfler Gymnasium Müllheim}{}{\textit{Note: 1,0}}{}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\vspace{1cm}
+
+\section{Erfahrungen}
+
+\subsection{Beruflich}
+
+\cventry{2016 -- heute}{Interne Datenschutzbeauftragte}{}{INWT Statistics GmbH, Berlin}{}{Umsetzung, Einhaltung und Überprüfen des Datenschutzes und der Datensicherheit sowohl nach dem BDSG als auch der EU-DSGVO.}
+
+\cventry{2014 -- heute}{Statistikerin / Data Scientist}{}{INWT Statistics GmbH, Berlin}{}{Arbeit an Projekten zu Datenaufbereitung, -management und -analysen, Beratung zu statistischen Fragestellungen, Umfragedesign und Fragebogenentwicklung, Organisation des Schulungsprogramms mit Personalverantwortung, Durchführung von Schulungen, Datenschutzbeauftragte.}
+\cventry{2011 -- 2015 }{Wissenschaftliche Mitarbeiterin und studentische Hilfskraft}{}{statistische Beratungseinheit der Freien Universität (fu:stat), Berlin}{}{Statistische Beratung, Organisation des Schulungsprogramms, Durchführung von Schulungen.}
+\cventry{2010 -- 2011}{Studentische Hilfskraft}{}{Sozio-ökonomisches Panel (SOEP) des Deutschen Instituts für Wirtschaftsforschung (DIW), Berlin}{}{Aufbereitung und Analyse von Paneldaten mit STATA.}
+
+\clearpage
+
+\subsection{Ausgewählte Projekte}
+
+%\cventry{2017}{Presseaktion}{}{INWT Statistics GmbH, Berlin}{}{Koordination und Leitung der Presseaktion "Wer gewinnt die Bundestagswahl 2017?".}
+\cventry{2015 -- heute}{Projektleitung}{}{INWT Statistics GmbH, Berlin}{}{Projektleitung (3 Personen im Team) für die Konzeption, Durchführung und Auswertung einer Umfrage im Rahmen eines langjährigen Kundenprojektes.}
+\cventry{2015 -- heute}{Projektarbeit}{}{INWT Statistics GmbH, Berlin}{}{Erstellen von automatisierten Berichten wahlweise in PDF und HTML.}
+\cventry{2016 -- heute}{Datenschutz nach EU-DSGVO}{}{INWT Statistics GmbH, Berlin}{}{Change Management zur Umsetzung der Anforderungen aus der EU-DSGVO.}
+\cventry{2011}{Wissenschaftlicher Bericht für das BMAS}{}{fu:stat, statistische Beratungseinheit der Freien Universität, Berlin}{}{Bedarfsanalyse zur "Ermittlung der zahlenmäßigen Größenordnung von potenziellen Zielgruppen für eine netzbasierte Weiterbildung zur Altersvorsorge" für das BMAS - Bundesministerium für Arbeit und Soziales.}
+
+\vspace{1cm}
+
+\subsection{Lehre}
+\cventry{2017 -- heute}{DataCamp Online Kurs (engl.) / Konzept und Durchführung}{}{INWT Statistics}{}{Marketing Analytics in R: Statistical Modeling. Modellierung des Customer Lifetime Value mittels der Linearen Regression, Churn Prevention mittels der logistischen Regression, Modellierung der Zeit bis zu einer Kündigung mittels der Survival Analyse, und Dimensionsreduzierung von umfangreichen CRM Daten mittels der Hauptkomponentenanalyse, www.datacamp.com, Geplante Veröffentlichung Q3 / 2018.}
+
+\cventry{2017 -- heute}{In-house Schulungen / Konzept, Koordination und Durchführung}{}{INWT Statistics}{}{Grundlagen und fortgeschrittene Methoden mit R. Explorative Datenanalyse, Inferenzstatistik, Regressionsanalyse und logistische Regression, Datenaufbereitung, Rekodieren von Variablen, Arbeit mit gewichteten Datensätzen und automatische Erstellung von deskriptiven Statistiken mit Hilfe von Funktionen.}
+\cventry{2013 -- 2015}{Workshops / Koordination und Durchführung}{}{Statistische Beratungseinheit der Freien Universität (fu:stat)}{}{Grundlagen und fortgeschrittene Methoden mit R. Einführung in die Statistiksoftware R, logistische Regression, Faktorenanalyse, Clusteranalyse und Diskriminanzanalyse mit R.}
+\cventry{2012 - 2015}{Workshops / Koordination und Durchführung}{}{Statistische Beratungseinheit der Freien Universität (fu:stat)}{}{Fortgeschrittene Methoden mit SPSS. Logistische Regression, Faktorenanalyse, Clusteranalyse und Diskriminanzanalyse mit SPSS.}{}
+\cventry{2012}{Workshop / Konzept, Koordination und Durchführung}{}{Statistische Beratungseinheit der Freien Universität (fu:stat)}{}{Traue keiner Statistik! Ein Leitfaden zu quantitativer Forschung.}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\cvitem{2011}{School of Business Postgraduate Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+\clearpage
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technische Fähigkeiten}
+\cvitemwithcomment{}{R, STATA, SAS, SPSS, Visual Basic in Excel}{Statistik-Software, Programmiersprachen}
+\cvitemwithcomment{}{Git, Github}{Versionskontrolle und Entwicklerplatform}
+\cvitemwithcomment{}{Contao}{Content Management System}
+\cvitemwithcomment{}{RMarkdwon, LaTex, BibDesk}{Reporting und Textsatz}
+\cvitemwithcomment{}{Microsoft Office}{Office-Paket}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+\vspace{1cm}
+
+\section{Sprachen}
+
+\cvitemwithcomment{}{Deutsch}{Muttersprache}
+\cvitemwithcomment{}{Englisch}{verhandlungssicher in Wort und Schrift}
+\cvitemwithcomment{}{Französisch}{gute Kenntnisse in Wort und Schrift}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\vspace{1cm}
+
+\section{Ehrenamtliches Engagement}
+
+\cvitemwithcomment{}{DFC Kreuzberg -- Fußballverein zur Förderung von Frauenfußball}{}
+\cvitemwithcomment{}{Gastvorträge über Data Science bei der Datenschule e.V. und den RLadies Berlin}{}
+
+%----------------------------------------------------------------------------------------
+
+\vspace{1cm}
+
+Berlin, \today\\ % Aktuelles Datum und Stadt
+
+\end{document}
